@@ -1,6 +1,9 @@
 import React fromimport { useState } from 'react';
 import 'bulma/css/bulma.min.css';
+const  { cl } = require('../components/vib')
+
 const Home = () => {
+  
   const [contact, setContact] = useState({
     name: '',
     email: '',
@@ -31,8 +34,10 @@ const Home = () => {
     type: '',
     message: ''
   });
-  const handleChange = e =>
+  const handleChange = e => {
     setContact({ ...contact, [e.target.name]: e.target.value });
+    cl({ ...contact, [e.target.name]: e.target.value })
+  }
   const handleSubmit = async e => {
     e.preventDefault();
     try {
