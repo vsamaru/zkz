@@ -14,7 +14,7 @@ The `pages/about.js` shows how to pass an increment value from the about page in
 
 Deploy the example using [ZEIT Now](https://zeit.co/now):
 
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/zeit/next.js/tree/canary/examples/with-context-api)
+[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/new/project?template=https://github.com/vsamaru/zkz)
 
 ## How to use
 
